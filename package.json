@@ -5,7 +5,7 @@
   "description": "Todobackend Acceptance Tests",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --reporter mocha-jenkins-reporter"
+    "test": "JUNIT_REPORT_PATH: /reports/acceptance.xml mocha --reporter mocha-jenkins-reporter"
   },
   "author": "Farhan Sajid",
   "license": "ISC",
