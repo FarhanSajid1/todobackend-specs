@@ -12,6 +12,7 @@ RUN yum -y install epel-release &&\
 COPY . /app
 WORKDIR /app
 
+
 # Installing application dependencies
 RUN npm install -g mocha &&\
     npm install -g mocha-jenkins-reporter &&\
